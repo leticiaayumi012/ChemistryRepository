@@ -1,0 +1,14 @@
+source "http://rubygems.org"
+gem 'sqlite3', '~> 1.4.0'
+gem 'sequel'
+
+require 'rubygems'
+require "bundler/setup"
+require 'sequel'
+
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
+
+gem 'devise'
+
+DB = Sequel.sqlite('login_db.db')
